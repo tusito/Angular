@@ -11,7 +11,8 @@ export class StarComponent implements OnChanges {
   //   throw new Error("Method not implemented.");
   // }
   
-  @Input() rating: number;
+  @Input() 
+  rating: number;
   starWidth: number;
 
   constructor() { 
